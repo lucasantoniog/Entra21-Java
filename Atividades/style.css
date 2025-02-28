@@ -1,0 +1,26 @@
+
+#titulo1 {
+    text-align: center;
+    color: rgb(95, 143, 191);
+}
+#titulo2 {
+text-align: center;
+color: rgb(95, 162, 199);
+border: 3px solid rgb(95, 162, 199);
+border-radius: 20px;
+}
+#titulo3 {
+    text-align: center;
+    
+}
+a {
+    color: black;
+    background-color: rgb(154, 213, 250);
+    border: solid rgb(154, 213, 250) ;
+    border-radius: 5px;
+
+}
+div {
+    text-align: center;
+
+}
