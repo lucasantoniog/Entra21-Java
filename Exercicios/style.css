@@ -63,3 +63,19 @@ button:hover {
     width: 320px;
     text-align: center;
 }
+#click {
+    float:inline-end;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#apres-container {
+    max-width: 400px;
+    text-align: left;
+}

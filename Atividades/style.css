@@ -24,3 +24,11 @@ div {
     text-align: center;
 
 }
+#salvar, #excluir, #cancelar {
+background-color:rgb(95, 162, 199);
+border-radius: 6px;
+}
+#voltar {
+margin: 15px;
+margin-bottom: 10px;
+}
