@@ -2,40 +2,74 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sabores da Casa</title>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
+    
     <div id="navbar">
-        <a href=""><img id="logo" src="/SiteExercicio/image-removebg-preview.png" alt="Logo"></a>
-        
-        <div class="nav-links">
-            <a href="cadastro.html">Cadastro</a>
-            <a href="album.html">Cardápio</a>
-            <a href="sobre.html">Sobre nós</a>
-            <a href="consulta.html">Consulta</a>
+        <a href="index.html"><img id="logo" src="/SiteExercicio/image-removebg-preview.png" alt="Logo"></a>
+        <div class="nav-center">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="album.html">Cardápio</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="consulta.html">Consulta</a>
+            </div>
         </div>
-        <div> </div>
+        <div class="nav-direita">
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
     </div>
 
-    <h1 id="nome">Sabores da Casa</h1>
+    
+    <header id="home-header">
+        <div class="intro-text">
+            <h1>Sabores da Casa</h1>
+            <p>Comidas italianas autênticas para o seu paladar. Venha viver a verdadeira experiência gastronômica!</p>
+            <a href="album.html" class="btn-primary">Explore o Cardápio</a>
+        </div>
+    </header>
 
-   
-    <div id="sumary">
-        <p id="resumo">Restaurante com especialidades em comidas italianas, onde a tradição encontra o sabor autêntico da Itália e receitas que são um verdadeiro abraço de família.</p>
-    </div>
+    
+
+    
+    <section id="testimonials">
+        <h2>O que dizem nossos clientes</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"Uma experiência incrível! Cada prato é preparado com tanto carinho. A pizza é a melhor que já comi!"</p>
+                <p>- Ana Souza</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Atendimento excelente e comida de qualidade. Me sinto na Itália toda vez que venho aqui!"</p>
+                <p>- Carlos Silva</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Adoro o ambiente acolhedor e a culinária autêntica. Recomendo a todos!"</p>
+                <p>- Mariana Oliveira</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="promotion">
+        <div class="promo-text">
+            <h2>Promoção da Semana!</h2>
+            <p>Peça uma pizza Margherita e ganhe uma sobremesa grátis! Aproveite enquanto dura!</p>
+            <a href="album.html" class="btn-primary">Ver Cardápio e Pedir</a>
+        </div>
+    </section>
 
     
     <div id="footer">
         <p>&copy; 2025 Sabores da Casa - Todos os direitos reservados.</p>
-        
-        
         <a href="https://www.linkedin.com/in/lucasagoncalves/" target="_blank" id="linkedin-link">
             <i class="fab fa-linkedin"></i> LinkedIn
         </a>

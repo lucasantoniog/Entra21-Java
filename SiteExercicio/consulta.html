@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <title>Consulta - Sabores da Casa</title>
     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta - Sabores da Casa</title>
 </head>
+
 <body>
-    <h1>Consulta</h1>
-    <p>Verifique seu pedido ou informações aqui.</p>
+    <div id="navbar">
+        <a href="index.html"><img id="logo" src="/SiteExercicio/image-removebg-preview.png" alt="Logo"></a>
+        <div class="nav-center">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="album.html">Cardápio</a>
+                <a href="sobre.html">Sobre nós</a>
+                <a href="consulta.html">Consulta</a>
+            </div>
+        </div>
+        <div class="nav-direita">
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </div>
+
+    <h1 id="nome">Consulta de Pedidos</h1>
+    
+    <div class="consulta-container">
+        <form action="#" method="GET" class="consulta-form">
+            <label for="pedido">Número do Pedido:</label>
+            <input type="text" id="pedido" name="pedido" placeholder="Digite o número do pedido" required>
+            <button type="submit">Consultar</button>
+        </form>
+    </div>
+    
+    <div id="footer">
+        <p>&copy; 2025 Sabores da Casa - Todos os direitos reservados.</p>
+        <a href="https://www.linkedin.com/in/lucasagoncalves/" target="_blank" id="linkedin-link">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+    </div>
 </body>
+
 </html>

@@ -1,4 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
+    height: 100%;
+    overflow-x: hidden;
     background-color: #eae7e1;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +15,7 @@ body {
 }
 
 #navbar {
+    position: relative;
     background-color: #9e4331;
     width: 100%;
     top: 0;
@@ -30,6 +40,7 @@ body {
 .nav-direita {
     display: flex;
     gap: 15px;
+    padding-right: 20px;
 }
 
 #navbar a {
@@ -85,10 +96,11 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     font-size: 14px;
+    margin-top: auto;
 }
 
 #footer p {
@@ -110,3 +122,70 @@ body {
 #linkedin-link i {
     margin-right: 8px;
 }
+
+.consulta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+}
+
+.consulta-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+.consulta-form label {
+    font-size: 18px;
+    color: #44504f;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.consulta-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.consulta-form button {
+    background-color: #9e4331;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.consulta-form button:hover {
+    background-color: #5a2e26;
+}
+
+#sobre-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+
+#sobre-container h2 {
+    color: #9e4331;
+    margin-top: 20px;
+}
+
